@@ -1,0 +1,98 @@
+ /* bracekts for use {}    */
+    
+ table{
+  width: 800px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 21px;
+  border-collapse: collapse;      
+}
+.boxshadow{
+height: 90px;
+background-color: rgb(255, 255, 255);
+position: relative;
+}
+.boxshadow th{
+width: 120px;
+}
+i{
+font-size: 40px;
+padding-bottom: 10px;
+}
+.backbox{
+height: 80px;
+width: 550px;
+box-shadow: 0px 25px 30px rgb(138, 138, 138);
+border-radius: 50%;
+position: absolute;
+left: 200px;
+top: 145px;
+
+}
+tr{
+height: 80px;  
+} 
+table td{
+border: 1px solid rgb(216, 216, 216) ;
+} 
+td{
+font-size: 21px;
+font-weight: bolder;  
+} 
+.colo1 {
+background-color:#D61C4E ;
+color: white;
+} 
+.colo2 {
+background-color:#FEDB39;
+color: white;
+} 
+.colo3 {
+background-color:#1CD6CE;
+color: white;
+} 
+.fontformat{
+text-transform: uppercase ;
+font-weight: bold ;
+font-size: 40px;
+padding: 40px;
+}
+.fontformat span{
+font-weight: normal ;
+}
+table i:hover:active{
+font-size: 45px ;
+color: #1CD6CE;
+}
+@media  screen and (max-width:1200px){
+table{
+  width: 700px;
+  font-size: 17px;     
+}
+.backbox{
+height: 70px;
+width: 500px;
+position: absolute;
+left: 140px;
+top: 155px;
+}
+tr{
+height: 70px;  
+} 
+}
+@media  screen and (max-width:760px){
+table{
+  width: 600px;
+  font-size: 15px;     
+}
+.backbox{
+height: 60px;
+width: 400px;
+position: absolute;
+left: 145px;
+top: 160px;
+}
+tr{
+height: 60px;  
+} 
+}
